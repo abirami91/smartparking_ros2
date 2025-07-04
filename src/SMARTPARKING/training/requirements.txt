@@ -1,0 +1,7 @@
+ultralytics==8.1.0
+opencv-python
+numpy
+pyyaml
+shapely
+scipy
+tqdm

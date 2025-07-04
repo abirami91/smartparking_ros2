@@ -1,0 +1,4 @@
+path: /workspace
+train: pklot_50/images
+val: pklot_50/images
+names: [free, occupied, unknown]  # now 3 classes

@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ROS build
+build/
+install/
+log/
+
+# Docker
+docker/*.tar

@@ -1,0 +1,10 @@
+# Dockerfile.ultralytics
+FROM docker.io/ultralytics/ultralytics:latest
+
+WORKDIR /workspace
+
+COPY pklot50.yaml .
+COPY scripts/        ./scripts/
+RUN chmod +x scripts/*.py
+
+CMD ["bash"]
